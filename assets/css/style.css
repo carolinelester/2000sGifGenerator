@@ -1,0 +1,102 @@
+body {
+    font-family: 'DM Mono', monospace !important;
+    background-image: url(../images/glitter.jpg) !important;
+}
+
+.container {
+	width: 80%;
+    left: 10%;
+    margin-top: 28px;
+	padding-bottom: 90px;
+}
+
+.individual-gifs {
+	float: left;
+	margin: 10px;
+}
+
+.intro {
+	display: block;
+	background-color: rgba(251, 66, 185, .71);
+	color: white;
+	font-weight: 500 !important;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+    text-align: center;
+    padding: 5px;
+    border: pink dotted 3px !important; 
+}
+
+.input-label {
+    font-size: 16px;
+    font-weight: 500 !important;
+    color: white;
+    background-color: rgba(251, 66, 185, .71);
+    border: pink solid 1.5px !important; 
+    padding: 2px 3px 2px 3px;
+    text-align: center;
+}
+
+.celeb-btn {
+    padding: 5px 8px 5px 8px;
+    color: rgb(139, 27, 81) !important;
+    margin: 5px 8px 5px 8px;
+    align-content: center !important;
+    transition: color 0.3s !important;
+}
+
+.celeb-btn:hover {
+    background-color:rgba(251, 66, 185, .61);
+    color: white !important;
+}
+
+.rating-text {
+	font-size: 16px;
+	color: white;
+	font-weight: bold !important;
+}
+
+#add-celeb {
+    transition: color 0.3s;
+    margin-top: 7px;
+    color: rgb(139, 27, 81) !important;
+}
+
+#add-celeb:hover {
+    background-color:rgba(251, 66, 185, .61);
+    color: white !important;
+}
+
+.rating {
+	font-weight: bolder;
+	font-size: 16px;
+	letter-spacing: 1px !important;
+}
+
+#sticky {
+    position: fixed;  
+    bottom: 0;          	
+    left: 0;            
+    width: 100%;
+    height: 45px;   
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-image: url(../images/glitterfooter.jpg);
+    text-align: center;
+    color: rgb(139, 27, 81) !important;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'DM Mono', monospace !important;
+}
+
+.inputform {
+    background-image: url(../images/glitterfooter.jpg);
+    padding: 12px;
+    border: rgb(139, 27, 81) solid 1.5px; 
+}
+
+.textinput {
+    width: 95%;
+    color: magenta !important;
+}
+
