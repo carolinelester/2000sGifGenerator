@@ -100,3 +100,20 @@ body {
     color: magenta !important;
 }
 
+@media only screen and (max-width: 600px) {
+    #glitter {max-width: 600px; height: auto !important}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #glitter {max-width: 768px; height: auto !important}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #glitter {max-width: 992px; height: auto !important}
+}
+
+@media only screen and (min-width: 1200px) {
+    #glitter {max-width: 1200px; height: auto !important}
+}
