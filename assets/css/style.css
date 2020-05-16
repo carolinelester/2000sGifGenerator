@@ -16,7 +16,8 @@ body {
 }
 
 .intro {
-	display: block;
+    margin-right: 5%; 
+    margin-left: 5%;
 	background-color: rgba(251, 66, 185, .71);
 	color: white;
 	font-weight: 500 !important;
